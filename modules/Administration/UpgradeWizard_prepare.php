@@ -352,8 +352,8 @@ switch( $mode ){
 
 if($remove_tables == 'prompt' && $mode == 'Uninstall'){
     print ("<br/><br/>");
-	print ("<input type='radio' id='remove_tables_true' name='remove_tables' value='true' checked>".$mod_strings['ML_LBL_REMOVE_TABLES']."&nbsp;");
-    print ("<input type='radio' id='remove_tables_false' name='remove_tables' value='false'>".$mod_strings['ML_LBL_DO_NOT_REMOVE_TABLES']."<br>");
+	print ("<input type='radio' id='remove_tables_true' name='remove_tables' value='true'>".$mod_strings['ML_LBL_REMOVE_TABLES']."&nbsp;");
+    print ("<input type='radio' id='remove_tables_false' name='remove_tables' value='false' checked>".$mod_strings['ML_LBL_DO_NOT_REMOVE_TABLES']."<br>");
 }
 $count = 0;
 
